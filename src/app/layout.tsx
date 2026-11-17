@@ -23,10 +23,8 @@ export default function RootLayout({
     <html lang="id" className={`${inter.variable} ${jetbrainsMono.variable} scroll-smooth`}>
       <body className="font-sans antialiased bg-[#040A12] text-slate-300 overflow-x-hidden flex flex-col min-h-screen">
         
-        {/* LAYER 1: Intro Splash Screen (Paling Depan) */}
+       
         <Intro />
-        
-        {/* LAYER 2: Navbar */}
         <Navbar /> 
         
         {/* LAYER 3: Konten Utama Halaman */}
