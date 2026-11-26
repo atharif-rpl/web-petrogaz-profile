@@ -94,7 +94,7 @@ export default function About() {
           {/* Gambar disetel agar menyesuaikan ketinggian container induk tanpa menyebabkan overflow */}
           <div className="lg:col-span-7 relative min-h-[300px] h-full rounded-3xl overflow-hidden group shadow-md border border-slate-200/60">
             <Image
-              src="/images/fotoabout.jpg"
+              src="/images/fotoabout"
               alt="Workshop dan Laboratorium Fasilitas Migas"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
